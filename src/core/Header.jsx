@@ -42,7 +42,7 @@ export default function Header({user}) {
                     ? <div className="navbar-nav mr-1">
                             <li className="nav-item">
                                 <Link to="/signin" className="nav-link" onClick={signout}>
-                                    LogOut
+                                    Sign Out
                                 </Link>
                             </li>
 
@@ -54,7 +54,7 @@ export default function Header({user}) {
                     : <div className="navbar-nav ml-auto">
                         <li className="nav-item">
                             <Link to={"/signin"} className="nav-link">
-                                Login
+                                Log In
                             </Link>
                         </li>
                         <li className="nav-item">
